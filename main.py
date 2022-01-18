@@ -1,5 +1,4 @@
 import random
-from replit import clear
 from art import logo
 
 
@@ -70,5 +69,4 @@ def play_game():
     print(compare(user_score, computer_score))
                 
 while (input("Do you want to play a game of blackjack? Type 'y' or 'n': ")) == 'y':
-    clear()
     play_game()
